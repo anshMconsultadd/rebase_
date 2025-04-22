@@ -1,1 +1,1 @@
-this is a demo of git rebase and merge conflicts 
+this is a demo of git rebase and merge conflicts and git fork
