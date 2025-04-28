@@ -1,0 +1,10 @@
+name: code check for siperLinter
+on: [push, pull_request]
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Super-linter
+        uses: super-linter/super-linter@v7.3.0 
