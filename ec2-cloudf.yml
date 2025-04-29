@@ -1,9 +1,0 @@
-Resources:
-  MyInstance:
-    Type: AWS::EC2::Instance
-    Properties:
-      InstanceType: t3.micro
-      ImageId: ami-0c55b159cbfafe1f0
-      Tags:
-        - Key: Name
-          Value: MyInstance
