@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   linter:
     runs-on: ubuntu-latest
-    permisssions:
+    permissions:
       contents: read
       pull-requests: write
     steps:
